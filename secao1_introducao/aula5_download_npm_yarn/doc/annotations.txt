@@ -7,5 +7,5 @@
             npm init -y
         - Instalar o Bootstrap:
             npm install bootstrap
-        - Instalar depêndencias do arquivo 'package.json'
+        - Instalar depêndencias do arquivo 'package.json':
             npm install
