@@ -1,0 +1,5 @@
+- Instalando o Browsersync:
+    Links úteis:
+        - Node (ttps://nodejs.org/en/)
+        - Browsersync (https://www.browsersync.io/)
+        - Visual Studio Code (https://code.visualstudio.com/)

@@ -1,0 +1,5 @@
+- Download Bootstrap:
+    Links úteis:
+        - Bootstrap (https://getbootstrap.com/docs/4.4/getting-started/download/#compiled-css-and-js)
+        - Popper (https://popper.js.org/)
+        - jQuery (https://jquery.com/)

@@ -1,0 +1,11 @@
+- Download Bootstrap:
+    Links úteis:
+        - Bootstrap (https://getbootstrap.com/docs/4.4/getting-started/download/#package-managers)
+        - Yarn (https://yarnpkg.com/)
+    Instalação local do Bootstrap:
+        - Criar arquivo 'package.json' padrão:
+            npm init -y
+        - Instalar o Bootstrap:
+            npm install bootstrap
+        - Instalar depêndencias do arquivo 'package.json'
+            npm install
