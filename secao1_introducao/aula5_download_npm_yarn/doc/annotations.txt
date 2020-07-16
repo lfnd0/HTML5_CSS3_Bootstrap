@@ -1,4 +1,4 @@
-- Download Bootstrap:
+- Node Package Manager (NPM) e Yarn:
     Links úteis:
         - Bootstrap (https://getbootstrap.com/docs/4.4/getting-started/download/#package-managers)
         - Yarn (https://yarnpkg.com/)
