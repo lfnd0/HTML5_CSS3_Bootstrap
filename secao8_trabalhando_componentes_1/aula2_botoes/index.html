@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 4 - Seção 8</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-primary">Botão</button>
+                <button type="button" class="btn btn-secondary">Botão</button>
+                <button type="button" class="btn btn-success">Botão</button>
+                <button type="button" class="btn btn-danger">Botão</button>
+                <button type="button" class="btn btn-warning">Botão</button>
+                <button type="button" class="btn btn-info">Botão</button>
+                <button type="button" class="btn btn-dark">Botão</button>
+                <button type="button" class="btn btn-light">Botão</button>
+                <button type="button" class="btn btn-link">Botão</button>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col">
+                <input type="button" class="btn btn-primary" value="Botão">
+                <a href="#" class="btn btn-primary">Botão</a>
+                <button type="button" class="btn btn-primary">Botão</button>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-outline-primary">Botão</button>
+                <button type="button" class="btn btn-outline-secondary">Botão</button>
+                <button type="button" class="btn btn-outline-success">Botão</button>
+                <button type="button" class="btn btn-outline-danger">Botão</button>
+                <button type="button" class="btn btn-outline-warning">Botão</button>
+                <button type="button" class="btn btn-outline-info">Botão</button>
+                <button type="button" class="btn btn-outline-dark">Botão</button>
+                <button type="button" class="btn btn-outline-light">Botão</button>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col">
+                <button class="btn btn-success btn-lg">Botão</button>
+                <button class="btn btn-danger btn-sm">Botão</button>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col">
+                <button class="btn btn-primary btn-block">Botão</button>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col">
+                <a href="#" class="btn btn-primary active btn-block" aria-pressed="true">Botão</a>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col">
+                <button class="btn btn-danger btn-block" disabled>Botão</button>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col">
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label for="option1" class="btn btn-secondary active">
+                        <input type="radio" name="options" id="option1" checked> 1
+                    </label>
+
+                    <label for="option2" class="btn btn-secondary">
+                        <input type="radio" name="options" id="option2"> 2
+                    </label>
+
+                    <label for="option3" class="btn btn-secondary">
+                        <input type="radio" name="options" id="option3"> 3
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col">
+                <button class="btn btn-success" id="btn-auto-save" data-toggle="button">Botão</button>
+                <button class="btn btn-primary" id="btn-click">Botão</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script>
+        $(() => {
+            $('#btn-click').on('click', e => {
+                $('#btn-auto-save').button('toggle');
+            });
+        })
+    </script>
+</body>
+
+</html>
