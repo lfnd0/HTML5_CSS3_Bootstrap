@@ -8,3 +8,4 @@
   - Seção 5 - [Entendendo a tipografia](https://github.com/lfnd0/Bootstrap4/tree/master/secao5_entendendo_tipografia) :file_folder:
   - Seção 6 - [Desafio pizzaria](https://github.com/lfnd0/Bootstrap4/tree/master/secao6_desafio_pizzaria) :file_folder:
   - Seção 7 - [Trabalhando com imagens e tabelas](https://github.com/lfnd0/Bootstrap4/tree/master/secao7_trabalhando_imagens_tabelas) :file_folder:
+  - Seção 8 - [Trabalhando com componentes pt. 1](https://github.com/lfnd0/Bootstrap4/tree/master/secao8_trabalhando_componentes_1) :file_folder:
